@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="port.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <class class="left">Harshita Porfolio</class>
+      <class class="right">
+        <ul>
+          <li><a href="portfolio.html">Home</a></li>
+          <li onclick="user(1)"><a href="#">My Intro</a></li>
+          <li onclick="user(2)"><a href="#">Services</a></li>
+          <li><a href="RESUME.pdf">Resume</a></li>
+          <li onclick="user(4)"><a href="#">Contact</a></li>
+        </ul>
+      </class>
+      <class>
+        <div onclick="user(3)" class="a3">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </class>
+    </nav>
+    <div id="toggledata">
+      <ul>
+        <li class="home"><a href="portfolio.html">Home</a></li>
+        <li class="about" onclick="user(1)"><a href="#">My Intro</a></li>
+        <li class="services" onclick="user(2)"><a href="#">Services</a></li>
+        <li class="reviews"><a href="RESUME.pdf">Resume</a></li>
+        <li class="contact" onclick="user(4)"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section id="first">
+      <div class="leftsection">
+        <h2 class="move">Hi, My name is <span class="purple">Harshita</span></h2>
+        <h2>and i am a Work as a</h2>
+        <h2><span id="element">Web developer</span></h2>
+      </div>
+      <div class="rightsection"></div>
+    </section>
+  </main>
+  <footer id="mainfooter">
+    <div class="footerleft">
+      <p> - Contact</p>
+      <h2>Any type of Query and <br>Discussion</h2>
+    </div>
+    <div class="footeright">
+      <h2>"When you are creative ,<br> you explore more things in <br>your curious mind."</h2>
+    </div>
+  </footer>
+  <hr style="height: 2px; background-color: black;">
+
+  <section id="second">
+    <div class="sec"></div>
+    <p>What I have done so far</p>
+    <h1>Work Experience</h1>
+    <div class="box">
+      <div class="box_1">
+        <h1>Web Designing</h1>
+        <p>I done 3 months internship in web desigining.</p>
+      </div>
+      <div class="box_1">
+        <h1>Php</h1>
+        <p>In this language i have no work Experience .</p>
+      </div>
+      <div class="box_1">
+        <h1>Machine Learning</h1>
+        <p>I completed 1 month internship in machine learning.</p>
+      </div>
+    </div>
+    <div class="box2"></div>
+  </section>
+  <section id="con3">
+  </section>
+
+  <section id="third">
+    <div class="th1"></div>
+    <div class="th2">
+      <div class="t_1">
+        <h1>My Intro</h1>
+        <hr>
+        <div class="th1"></div>
+        <h3>I am Harshita Goyal. </h3>
+        <h3>I am from Bulandshahr. </h3>
+        <h3>My technical skills include web developer. </h3>
+        <h3>I am familiar with work on vscode.</h3>
+        <h3>I have used my skills to build multiple projects. </h3>
+        <h3>My extracurricular activities include i like shows , dramas and playing mobile games. </h3>
+        <h3>I have also participate in several workshop and contests. </h3>
+      </div>
+      <div class="t_2"> </div>
+    </div>
+    <div class="th1"></div>
+  </section>
+
+  <section id="four">
+    <h1>Contact</h1>
+    <hr>
+    <div class="contain">
+      <!--box1-->
+      <div class="address">
+        <h1>Address</h1>
+        <p>block-23,<br>lal Talab,<br> Bulandshahr</p>
+        <br>
+        <h1>Phone no.</h1>
+        <p>+91 456789234</p>
+        <br>
+        <h1>Information</h1>
+        <p>For any kind Information contact our number otherwise Send us a message and we'll reply as soon as
+          possible. </p>
+      </div>
+      <!--Box1-->
+      <!--Box2-->
+      <div class="form">
+        <!--row1-->
+        <div class="row">
+          <div class="b1">
+            <h3>Name:</h3>
+            <p><input type="text" class="i" placeholder="Your Name" required></p>
+            <br>
+            <h3>Contact no.</h3>
+            <P><input type="number" class="i" placeholder="Contact no." required></P>
+            <br>
+          </div>
+          <div class="b1">
+            <h3>Last name:</h3>
+            <P><input type="text" class="i" placeholder="Last name"></P>
+            <br>
+            <h3>Email:</h3>
+            <P><input type="text" class="i" placeholder="Email" required></P>
+          </div>
+        </div>
+        <!--/row1-->
+        <h3>Message:</h3>
+        <P><textarea name="msg" rows="10" class="i"></textarea></P>
+        <br>
+        <p><input type="checkbox">&ThinSpace;I understand that your personal data will be used in accordance
+          with the Privacy Policy here*</p>
+        <button><a href="submit.html">SUBMIT</a></button>
+      </div>
+      <!--/Box2-->
+    </div>
+    <br>
+  </section>
+
+  <footer class="footer">
+    <div class="footerbox1">
+      <div class="firstbox w">
+        <h2>Harshita Portfolio</h2>
+      </div>
+      <div class="secondbox w">
+        <ul>
+          <li><a href="portfolio.html">Home</a></li>
+          <li onclick="user(1)"><a href="#">My Intro</a></li>
+          <li onclick="user(2)"><a href="#">Services</a></li>
+          <li><a href="RESUME.pdf">Resume</a></li>
+          <li onclick="user(4)"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="thirdbox w">
+        <ul>
+          <li><a href="portfolio.html">Home</a></li>
+          <li onclick="user(1)"><a href="#">My Intro</a></li>
+          <li onclick="user(2)"><a href="#">Services</a></li>
+          <li><a href="RESUME.pdf">Resume</a></li>
+          <li onclick="user(4)"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="fourbox w">
+        <ul>
+          <li><a href="portfolio.html">Home</a></li>
+          <li onclick="user(1)"><a href="#">My Intro</a></li>
+          <li onclick="user(2)"><a href="#">Services</a></li>
+          <li><a href="RESUME.pdf">Resume</a></li>
+          <li onclick="user(4)"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerbox2">
+      Copywrite &#169; harshitaportfolio.com | All rights reserved
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    function user(utab) {
+      if (utab == 1) {
+        document.getElementById('third').style.display = "block";
+        document.getElementById('first').style.display = "none";
+        document.getElementById('mainfooter').style.display = "none";
+        document.getElementById('second').style.display = "none";
+        document.getElementById('con3').style.display = "none";
+        document.getElementById('four').style.display = "none";
+        document.getElementById('toggledata').style.display = "none";
+      }
+      if (utab == 2) {
+        document.getElementById('second').style.display = "block";
+        document.getElementById('con3').style.display = "block";
+        document.getElementById('first').style.display = "none";
+        document.getElementById('mainfooter').style.display = "none";
+        document.getElementById('third').style.display = "none";
+        document.getElementById('four').style.display = "none";
+        document.getElementById('toggledata').style.display = "none";
+      }
+      if (utab == 4) {
+        document.getElementById('four').style.display = "block";
+        document.getElementById('first').style.display = "none";
+        document.getElementById('mainfooter').style.display = "none";
+        document.getElementById('third').style.display = "none";
+        document.getElementById('con3').style.display = "none";
+        document.getElementById('second').style.display = "none";
+        document.getElementById('toggledata').style.display = "none";
+      }
+      if (utab == 3) {
+        document.getElementById('toggledata').style.display = "block";
+      }
+    }
+
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Machine learner.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
